@@ -1,0 +1,51 @@
+<div class="container">
+   <h1>Mis Clientes</h1>
+   <form #myForm="ngForm">
+       <div class="row mt-3">
+        <div class="col-lg-3 col-sm-3"> <div class="form-group">
+            <label for="exampleInputEmail1">ID</label>
+            <input type="number" class="form-control" name="id" aria-describedby="emailHelp" [(ngModel)]="userObj.id">
+          </div>
+        </div>
+         <div class="col-lg-9 col-sm-9"> <div class="form-group">
+           <label for="exampleInputEmail1">Nombre</label>
+           <input type="string" class="form-control" name="nombre" aria-describedby="emailHelp" [(ngModel)]="userObj.nombre">
+         </div>
+       </div>
+         <div class="col-lg-6 col-sm-6"> <div class="form-group">
+           <label for="exampleInputEmail1">Direccion</label>
+           <input type="string" class="form-control" name="direccion" aria-describedby="emailHelp" [(ngModel)]="userObj.direccion">
+         </div></div>
+         <div class="col-lg-6 col-sm-6"> <div class="form-group">
+            <label for="exampleInputEmail1">Telefono</label>
+            <input type="number" class="form-control" name="telefono" aria-describedby="emailHelp" [(ngModel)]="userObj.telefono">
+          </div></div>
+       </div>  
+   
+       <button type="button" class="btn btn-primary" (click)="addUser(myForm.value)" *ngIf="!isEdit">Agregar</button>
+       <button type="button" class="btn btn-info" *ngIf="isEdit" (click)="updateUser()">Actualizar</button>
+     </form>
+   
+     <br>
+     <table class="table">
+       <thead>
+         <tr>
+           <th scope="col">id</th>
+           <th scope="col">Precio</th>
+           <th scope="col">direccion</th>
+           <th scope="col">telefono</th>
+         </tr>
+       </thead>
+       <tbody *ngFor="let user of allUser">
+         <td>{{user.id}}</td>
+         <td>{{user.nombre}}</td>
+         <td>{{user.direccion}}</td>
+         <td>{{user.telefono}}</td>
+   
+           <td><button (click)="editUser(user)" class="btn btn-warning">Editar</button></td>
+           <td><button (click)="deleteUser(user)" class="btn btn-danger">Borrar</button></td>
+    
+        
+           </tbody>
+     </table>
+   </div>

@@ -1,0 +1,17 @@
+.mat-card{
+background: cornsilk;color: black;
+width: 80%; margin: 1% auto;
+padding: 2%;margin: 0 auto;
+}
+
+.mat-card-title{font-size: 2rem;text-transform: uppercase;}
+.mat-card-content{
+    width: 80%;text-align: center;
+    margin: 0 auto;
+}
+
+.align-center{text-align: center;clear: both;display: block;
+margin: 6px auto;}
+
+p.content{text-align: center;}
+.post-card img{width: 100%; border-radius: 6px;height: 400px;}

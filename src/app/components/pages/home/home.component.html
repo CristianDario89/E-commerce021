@@ -1,0 +1,181 @@
+<app-slider></app-slider>  
+<app-message></app-message>
+<app-promos></app-promos>  
+<app-products></app-products>
+ 
+
+<div class="container">
+
+    <div class="wrapdestacado p-4">
+        <div class="titudestacado">Productos Destacados</div>
+        <div class="btn btn-success btnmio"><a [routerLink]="['/vermas']">VER MÁS</a> </div>
+    </div>
+
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+        
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'Dulces'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+       
+    </div>
+    <!--Galletitas - snacks-->      
+
+    <div class="wrappromos">
+
+        <div class="wrap1">
+             <p class="parracentro">Todos los jueves</p>
+             <div class="wrapinterno">
+                 <p class="exclusivo">1 snack</p>
+                 <p class="descuento">Gratis</p>
+                 <p class="seguncompra">compra mayor a $ 700</p>
+             </div>
+        </div>
+    
+        <div class="wrap1">
+            <p class="parracentro">Siendo socio</p>
+            <div class="wrapinterno">
+                <p class="exclusivo">Envios</p>
+                <p class="descuento">Gratis</p>
+                <p class="seguncompra">compra mayor a $1000</p>
+            </div>
+       </div>
+    
+    </div>
+
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+        
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'snacks'">
+                <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+          </div>
+       </div>
+       
+    </div>
+     
+    <!--BEBIDAS cervezas-->
+    <div class="wrapdestacado p-4">
+        <div class="titudestacado">Productos Destacados</div>
+        <div class="btn btn-success btnmio"><a>VER MÁS</a></div>   
+    </div>      
+   
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+        
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'alcohol'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+    </div>
+   <!--FIN BEBIDAS cervezas-->
+
+    <div class="wrappromos">
+
+        <div class="wrap1">
+             <p class="parracentro">Todos los Viernes</p>
+             <div class="wrapinterno">
+                 <p class="exclusivo ">Llevando 4 cerveza</p>
+                 <p class="descuento">50%</p>
+                 <p class="seguncompra">en la 4ta de 1L</p>
+             </div>
+        </div>
+    
+        <div class="wrap1">
+            <p class="parracentro">Siendo socio</p>
+            <div class="wrapinterno">
+                <p class="exclusivo">Envio</p>
+                <p class="descuento">Gratis</p>
+                <p class="seguncompra">2da compra mayor $ 400</p>
+            </div>
+       </div>
+    
+    </div>
+ <!--BEBIDAS jugos--> 
+<div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+    
+   <div  *ngFor="let post of posts">
+        <div class="item" *ngIf="post.contentPost == 'jugos'">
+             <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                {{post.titlePost}}
+            </a></h1>
+            <img [src]="post.imagePost" >
+            <h2>$ {{post.precio}}</h2>
+        </div>
+   </div>
+</div>
+<!--FIN BEBIDAS jugos-->
+
+
+     <!--ALFAJORES - GOLOSINAS-->
+    <div class="wrapdestacado p-4">
+        <div class="titudestacado">Productos Destacados</div>
+        <div class="btn btn-success btnmio"><a>VER MÁS</a></div>  
+    </div>      
+   
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+        
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'alfajores'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+    </div> 
+  <!--CHOCOLATES-->
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+        
+        <div  *ngFor="let post of posts">
+             <div class="item" *ngIf="post.contentPost == 'chocolate'">
+                  <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                     {{post.titlePost}}
+                 </a></h1>
+                 <img [src]="post.imagePost" >
+                 <h2>$ {{post.precio}}</h2>
+             </div>
+        </div>
+     </div>
+    <!--fIN CHOCOLATES - GOLOSINAS-->
+
+     <!--helados-->
+     <div class="wrapdestacado p-4">
+        <div class="titudestacado">Productos Destacados</div>
+        <div class="btn btn-success btnmio"><a>VER MÁS</a></div>  
+     </div>      
+   
+
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+        
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'helados'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+    </div> 
+
+</div>
+  
+<ng-template #loading>
+    <div class="container-spinner">
+      <mat-spinner></mat-spinner>
+    </div>
+</ng-template>

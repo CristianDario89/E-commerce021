@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
+/* ----Products-----*/
+  .container{background-color: #ddd;}
+  .wrapper{
+    max-height: 250px;
+    background-origin: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+  }
+  .wrapper::-webkit-scrollbar{
+   width: 0;
+  }
+  .wrapper .item{
+   min-width: 160px;height: 240px; 
+   text-align: center;
+   background-color: white;
+   margin-right: 9px;
+  }
+
+  .item{
+    display: grid;grid-template-rows: 20% 60% 20%;}
+  .item img{width: 150px; height: 100%;}
+  /*-----Destacados-----*/
+  .wrapdestacado{display: grid;grid-template-columns: 70% 30%;}
+ 
+  .titudestacado{font-size: 20px;
+  padding-top: 9px;}
+/*-------------Promos------*/
+.wrappromos{
+display: grid;
+grid-template-columns: 50% 50%;  
+grid-column-gap: 7px;
+margin-top: 6px;
+margin-bottom: 20px;
+}
+.wrapinterno{
+display: grid;
+grid-template-rows: 33% 33% 33%;  
+text-align: center;
+transform: translateY(-5px);
+}
+.wrap1{
+border-radius: 5%;  height: 130px;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+color: black;
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+
+.parracentro{
+text-align: center;
+padding: 7px;
+background-color: #451e89;color:  whitesmoke; 
+}
+
+.exclusivo{font-family: 'Roboto', sans-serif;font-weight: 500;}
+
+.descuento{font-size: 40px;color: orange;  font-weight: 600;}
+
+.seguncompra{font-family: 'Roboto', sans-serif;font-weight: 500;}
+/*-------------------------*/
+.btnmio a{color: ivory; text-decoration: none;}
+
+ 
+

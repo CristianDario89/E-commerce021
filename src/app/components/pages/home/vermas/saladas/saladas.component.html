@@ -1,0 +1,39 @@
+<div class="container">
+    <!--
+    <form #myForm="ngForm">
+        <div class="row">
+          <div class="col-lg-8 col-sm-8"> <div class="form-group">
+            <label for="exampleInputEmail1">Producto</label>
+            <input type="string" class="form-control" name="marca" aria-describedby="emailHelp" [(ngModel)]="userObj.marca">
+          </div>
+        </div>
+          <div class="col-lg-4 col-sm-4"> <div class="form-group">
+            <label for="exampleInputEmail1">Precio</label>
+            <input type="number" class="form-control" name="precio" aria-describedby="emailHelp" [(ngModel)]="userObj.precio">
+          </div></div>
+        </div>
+    
+        <button type="button" class="btn btn-primary" (click)="addUser(myForm.value)" *ngIf="!isEdit">Submit</button>
+        <button type="button" class="btn btn-info" *ngIf="isEdit" (click)="updateUser()">Update</button>
+      </form>
+    -->
+    
+      <br>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let user of allUser">
+          <td><img src="{{user.img}}" class="mr-2" style="width: 40px;height: 40px;"> {{user.marca}}</td>
+          <td>$ {{user.precio}}</td>
+  
+          <!--
+             <td><button (click)="editUser(user)" class="btn btn-warning">Edit</button></td>
+            <td><button (click)="deleteUser(user)" class="btn btn-danger">Delete</button></td>
+          -->
+           </tbody>
+      </table>
+    </div>

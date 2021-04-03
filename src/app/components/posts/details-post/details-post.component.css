@@ -1,0 +1,35 @@
+
+.mat-card {
+    background: whitesmoke;
+    color:black;
+    width: 80%;
+    margin: 1% auto;
+    padding: 2%;
+    border-radius: 0;
+    box-shadow: initial;
+  }
+  
+  .align-center {
+    text-align: center;
+    clear: both;
+    display: block;
+    margin: 6px auto;
+  }
+  
+  .mat-card-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .mat-card-content {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mat-card-content p.content {
+    text-align: center;
+  }
+  img {
+    width: 50%;padding-top: 5%;
+    border-radius: 6px;
+  }
