@@ -27,9 +27,10 @@
     display: grid;grid-template-rows: 20% 60% 20%;}
   .item img{width: 150px; height: 100%;}
   /*-----Destacados-----*/
-  .wrapdestacado{display: grid;grid-template-columns: 70% 30%;}
+  .wrapdestacado{display: flex;justify-content: space-between;
+  margin: 10px;}
 
-  .titudestacado{font-size: 20px;
+  .titudestacado{font-size: 1.2rem; 
   padding-top: 9px;}
 /*-------------Promos------*/
 .wrappromos{
@@ -111,7 +112,8 @@ background-color: whitesmoke;
 }
 
 /*------------------------*/
-.btnmio a{color: ivory; text-decoration: none;}
+.btnmio a{color: ivory; text-decoration: none;
+background-color: #451e89;padding: 10px 20px;border-radius: 5%;}
 
 
 @media screen and (max-width: 819px) {
@@ -130,6 +132,20 @@ background-color: whitesmoke;
   }
   
 .neon {font-size:1.4rem;}
+
+.lado2 p{
+font-size: 2.5rem;
+}
+.desc1 h2{
+  color:black;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 0.3rem;font-size: 1.4rem;line-height: 1.3rem;
+  font-weight: 600;;
+}
+.desc3{
+  font-size: 0.6rem;font-style: italic; padding: 0  10px;
+}
+.btnmio {width: 120px;align-self: center;}
   }
 
 
