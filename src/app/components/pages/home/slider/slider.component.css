@@ -15,7 +15,7 @@ text-shadow: 2px 2px 1px #451e89;
 
 .carousel-caption h3{
     font-size: 30px;line-height: 50px;
-  position: relative;transform: translateY(-100px);
+  position: relative;transform: translateY(-120px) translateX(-70px);
 
 }
 .carousel-caption p{

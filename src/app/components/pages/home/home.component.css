@@ -116,11 +116,17 @@ background-color: whitesmoke;
 
 @media screen and (max-width: 819px) {
   .wrappromos{
-    padding-left: 15px;padding-right: 15px;
+    padding-left: 10px;padding-right: 15px;
+    grid-template-columns: 30% 70%;
     }
 
+    .lado1a p{
+      font-size: 3rem;
+      
+    }
   .lado2{
       padding: 0rem 1rem 2.5rem 1rem;
+      font-size: 1rem;
   }
   
 .neon {font-size:1.4rem;}
