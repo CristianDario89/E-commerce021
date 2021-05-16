@@ -1,4 +1,5 @@
- .container ng-image-slider{
-    font-weight: 600;font-size: 24px;
-    
- }
+ ng-image-slider{font-weight: 600;font-size: 24px;}
+.wrapperslider2{
+   transform: scaleY(0.6);
+}
+  
