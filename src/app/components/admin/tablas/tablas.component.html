@@ -1,0 +1,178 @@
+<div class="container mt-3">
+    <strong>Seleccionar producto: </strong><select (change)="choice($event.target.value)">
+           <option>Seleccionar sección</option>
+           <option *ngFor="let c of products" [value]="c.code">{{c.producto}}</option>
+       </select>
+        
+       <div [ngSwitch]="selectedProduct">
+           <div *ngSwitchCase="'beb'" class="jumbotron">
+               <h1>Cervezas</h1>
+               <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+                   <thead>
+                   <tr>
+                      <th scope="col">Producto</th>
+                     <th scope="col">Seccion</th>
+                     <th scope="col">Precio</th>
+                   </tr>
+                   </thead>
+                   <tbody *ngFor="let post of posts">
+                   <tr *ngIf="post.contentPost == 'alcohol'" >
+                     <td > {{post.titlePost}}  </td>
+                     <td>{{post.tagsPost }}</td>
+                     <td>$ {{post.precio}}</td>
+                   </tr>
+                   </tbody>
+               </table>
+               
+                 <h1>Vinos</h1>
+                 <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+                     <thead>
+                     <tr> 
+                       <th scope="col">Producto</th>
+                       <th scope="col">Seccion</th>
+                       <th scope="col">Precio</th>
+                     </tr>
+                     </thead>
+                     <tbody *ngFor="let post of posts">
+                     <tr *ngIf="post.contentPost == 'vinos'" > 
+                       <td > {{post.titlePost}}  </td>
+                       <td>{{post.tagsPost }}</td>
+                       <td>$ {{post.precio}}</td>
+                     </tr>
+                     </tbody>
+                 </table>
+   
+                 <h1>Jugos</h1>
+                 <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+                     <thead>
+                     <tr> 
+                       <th scope="col">Producto</th>
+                       <th scope="col">Seccion</th>
+                       <th scope="col">Precio</th>
+                     </tr>
+                     </thead>
+                     <tbody *ngFor="let post of posts">
+                     <tr *ngIf="post.contentPost == 'jugos'" > 
+                       <td > {{post.titlePost}}  </td>
+                       <td>{{post.tagsPost }}</td>
+                       <td>$ {{post.precio}}</td>
+                     </tr>
+                     </tbody>
+                 </table>
+           </div>
+           <div *ngSwitchCase="'gol'"  class="jumbotron">
+               
+               <h3>Alfajores</h3>
+               
+               <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+                   <thead>
+                   <tr>
+                   
+                   <th scope="col">Producto</th>
+                   <th scope="col">Seccion</th>
+                   <th scope="col">Precio</th>
+                   </tr>
+                   </thead>
+                   <tbody *ngFor="let post of posts">
+                   <tr *ngIf="post.contentPost == 'alfajores'" >
+                   
+                   <td> {{post.titlePost}}  </td>
+                   <td>{{post.tagsPost }}</td>
+                   <td>$ {{post.precio}}</td>
+                   </tr>
+                   </tbody>
+               </table>
+   
+               <h3>Chocolates</h3>
+                       
+               <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+                   <thead>
+                   <tr>
+                   
+                       <th scope="col">Producto</th>
+                       <th scope="col">Seccion</th>
+                       <th scope="col">Precio</th>
+                   </tr>
+                   </thead>
+                   <tbody *ngFor="let post of posts">
+                   <tr *ngIf="post.contentPost == 'chocolate'" >
+                   
+                       <td b> {{post.titlePost}}  </td>
+                       <td>{{post.tagsPost }}</td>
+                       <td>$ {{post.precio}}</td>
+                   </tr>
+                   </tbody>
+                   </table>
+   
+           </div>
+           <div *ngSwitchCase="'gal'"  class="jumbotron">
+               <h3>Snacks</h3>
+               <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+                   <thead>
+                   <tr>
+                   
+                   <th scope="col">Producto</th>
+                   <th scope="col">Seccion</th>
+                   <th scope="col">Precio</th>
+                   </tr>
+                   </thead>
+                   <tbody *ngFor="let post of posts">
+                   <tr *ngIf="post.contentPost == 'snacks'" >
+                   
+                   <td > {{post.titlePost}}  </td>
+                   <td>{{post.tagsPost }}</td>
+                   <td>$ {{post.precio}}</td>
+                   </tr>
+                   </tbody>
+               </table>
+       
+               <h3>Dulces</h3>
+               <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+                   <thead>
+                   <tr>
+                       <th scope="col">Producto</th>
+                       <th scope="col">Seccion</th>
+                       <th scope="col">Precio</th>
+                   </tr>
+                   </thead>
+                   <tbody *ngFor="let post of posts">
+                   <tr *ngIf="post.contentPost == 'Dulces'" >
+                       <td > {{post.titlePost}}  </td>
+                       <td>{{post.tagsPost }}</td>
+                       <td>$ {{post.precio}}</td>
+                   </tr>
+                   </tbody>
+                   </table>
+       
+           </div>
+           <div *ngSwitchCase="'hel'"  class="jumbotron">
+             
+           <table class="table table-striped" *ngIf="posts$ | async as posts; else loading">
+               <thead>
+               <tr>
+                   <th scope="col">Producto</th>
+                   <th scope="col">Seccion</th>
+                   <th scope="col">Precio</th>
+               </tr>
+               </thead>
+               <tbody *ngFor="let post of posts">
+               <tr *ngIf="post.contentPost == 'helados'" >
+                   <td > {{post.titlePost}}  </td>
+                   <td>{{post.tagsPost }}</td>
+                   <td>$ {{post.precio}}</td>
+               </tr>
+               </tbody>
+           </table>
+        
+           </div>
+       </div>
+          
+       <ng-template #loading>
+           <div class="container-spinner">
+             <mat-spinner></mat-spinner>
+           </div>
+       </ng-template>
+      
+     
+   </div>
+   

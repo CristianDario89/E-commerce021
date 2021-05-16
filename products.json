@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "marca": "Mantecadas",
+      "precio": 40,
+      "img": "images/galle/mante.jpg"
+    },
+    {
+      "id": 4,
+      "marca": "Coronitas2",
+      "precio": 45,
+      "img": "images/galle/coro.jpg"
+    },
+    {
+      "id": 5,
+      "marca": "Trio 300 gr",
+      "precio": 35,
+      "img": "images/galle/gad4.jpg"
+    },
+    {
+      "id": 6,
+      "marca": "Surtidas bagley",
+      "precio": 110,
+      "img": "images/galle/surtidos.webp"
+    },
+    {
+      "id": 7,
+      "marca": "Magdalena pozo",
+      "precio": 83,
+      "img": "images/galle/pozo.jpg"
+    },
+    {
+      "id": 8,
+      "marca": "Trío 500grs",
+      "precio": 90,
+      "img": "images/galle/gad6.jpg"
+    },
+    {
+      "marca": "Taragui",
+      "precio": 222,
+      "id": 9
+    }
+  ],
+  "snacks": [
+    {
+      "marca": "Krachitos jamón corte americano ",
+      "precio": 50
+    },
+    {
+      "marca": "Krachitos cheddar y ketchup",
+      "precio": 60
+    },
+    {
+      "marca": "Línea lay's 46grs",
+      "precio": 65
+    },
+    {
+      "marca": "doritos 46grs",
+      "precio": 65
+    }
+  ],
+  "saladas": [
+    {
+      "marca": "Don Satur",
+      "precio": 40
+    },
+    {
+      "marca": "media tarde  x 3",
+      "precio": 75
+    },
+    {
+      "marca": "Traviata  x 3",
+      "precio": 100
+    },
+    {
+      "marca": "Jorgito Bizcochitos",
+      "precio": 50
+    },
+    {
+      "marca": "criollitas x 3",
+      "precio": 90
+    },
+    {
+      "marca": "Paseo",
+      "precio": 75
+    }
+  ],
+  "products2": [
+    {
+      "id": 2,
+      "marca": "Cocacola2",
+      "precio": 48,
+      "img": "assets/img/p1.jpg"
+    },
+    {
+      "id": 3,
+      "marca": "Pepsi",
+      "precio": 40,
+      "img": "images/galle/mante.jpg"
+    },
+    {
+      "id": 4,
+      "marca": "Fanta",
+      "precio": 45,
+      "img": "images/galle/coro.jpg"
+    },
+    {
+      "id": 5,
+      "marca": "Sprite",
+      "precio": 35,
+      "img": "images/galle/gad4.jpg"
+    },
+    {
+      "id": 6,
+      "marca": "Tang",
+      "precio": 110,
+      "img": "images/galle/surtidos.webp"
+    },
+    {
+      "id": 7,
+      "marca": "Clight",
+      "precio": 83,
+      "img": "images/galle/pozo.jpg"
+    },
+    {
+      "id": 8,
+      "marca": "Fresh",
+      "precio": 90,
+      "img": "images/galle/gad6.jpg"
+    },
+    {
+      "marca": "Baggio",
+      "precio": 222,
+      "id": 9
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Nadia",
+      "direccion": "Mon 12 2do piso Dto. E",
+      "telefono": 11112222
+    },
+    {
+      "id": 2,
+      "nombre": "Darío",
+      "direccion": "Mon 8 3do piso Dto. N",
+      "telefono": 11113333
+    },
+    {
+      "id": 3,
+      "nombre": "Maria",
+      "direccion": "Marconi 2765",
+      "telefono": 11223333
+    },
+    {
+      "id": 4,
+      "nombre": "Arcor",
+      "direccion": "Av. Falcon 4324 - Liniers",
+      "telefono": 1123455432
+    }
+  ]
+}

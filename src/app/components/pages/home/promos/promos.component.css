@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Potta+One&display=swap');
+
+.container{display: grid;
+grid-template-columns: 31% 33% 31%;
+
+grid-gap: 20px;
+
+padding-top: 20px;
+}
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../../../../assets/img/p1.jpg");
+  background-size: cover;
+  height: 200px;
+   position: relative;
+  float: left;
+} 
+.top h2 {
+  color: white;
+  margin: 0;
+  padding: 10px;
+  font-size: 40px;
+}
+ 
+
+.lr p {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  margin: 0;
+}
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: orange;text-shadow: 1px 1px 1px red;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+}
+/*----------------*/
+
+.mid .envio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+  }
+  
+.mid .mayormil {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: wheat;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 2rem; 
+    font-family: 'Indie Flower', cursive;
+  }
+/*-------------*/
+.cap p {
+  padding: 20px;
+  color: white;
+  font: 12px Monaco, Mono-Space;
+  margin: 0;
+}
+ /*-------------*/
+ .dia{color: orange; font-weight: 600;}
+
+ .wrapint{
+     display: grid;
+     grid-template-columns: 70% 30%;
+ }
+ .compra{color: wheat;
+padding-left: 20px; font-size: 32px;line-height: 36px; 
+font-family: 'Indie Flower', cursive;
+}
+ .desc{
+font-size: 60px; color: orange; text-shadow: 1px 1px 1px red;
+padding-top: 2rem;
+font-weight: 600;
+transform: scaleY(1.8);
+}
+.desc span{font-size: 30px;}
+
+.mayormil .preciochico, .compra .preciochico {
+    color: red;font-size:44px;
+    text-shadow: 1px 1px 1px orange;
+       }
+@media screen and (max-width: 819px) {   
+.module {  height: 140px;  } 
+
+.container{display: grid;grid-template-columns: 48% 49%;grid-gap: 14px;}
+
+.chau{display: none;}
+        
+.top h2 { padding: 6px;font-size: 26px;}
+ 
+.wrapint{display: grid;grid-template-columns: 55% 45%;} 
+
+.compra{ 
+    padding-left: 7px; font-size: 24px;line-height: 25px; 
+    font-family: 'Indie Flower', cursive;
+    }
+
+.desc{
+    font-size: 44px; color: orange; 
+    padding-top: 1.8rem;
+    transform: scaleY(1.8);
+}
+/*-----------*/
+.mid .envio { font-family: 'Roboto', sans-serif;font-size: 1.7rem;}
+  
+.mid .mayormil {left: 4%;font-size: 1.1rem;}
+
+.mayormil .preciochico,.compra .preciochico {font-size: 34px; }
+ 
+.mid h2 {font-family: 'Roboto', sans-serif;font-size: 2.5rem;}
+}
+ 

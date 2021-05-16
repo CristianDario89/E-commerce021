@@ -1,0 +1,44 @@
+<div class="new-post-container">
+    <form [formGroup]="newPostForm" (ngSubmit)="addNewPost(newPostForm.value)">
+      <mat-form-field>
+        <mat-label>Nombre</mat-label>
+        <input matInput placeholder="Nombew del producto" formControlName="titlePost">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Content</mat-label>
+        <input matInput placeholder="Content post" formControlName="contentPost">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Precio</mat-label>
+        <input matInput placeholder="Precio" formControlName="precio">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Marca</mat-label>
+        <input matInput placeholder="Marca" formControlName="marca">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Observacion</mat-label>
+        <input matInput placeholder="Observacion" formControlName="observacion">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Sección" multiple formControlName="tagsPost">
+          <mat-option value="Almacen">Almacen</mat-option>
+          <mat-option value="Bedidas">Bedidas</mat-option>
+          <mat-option value="Cigarrillos">Cigarrillos</mat-option>
+          <mat-option value="Galletitas">Galletitas</mat-option>
+          <mat-option value="Golosinas">Golosinas</mat-option>
+          <mat-option value="Helados">Helados</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="container-input-file">
+        <label class="custom-file">
+          <input type="file" formControlName="imagePost" (change)="handleImage($event)" />
+          <mat-icon>cloud_upload</mat-icon><span>ELEGIR IMÁGEN</span>
+        </label>
+      </div>
+      <div class="container-button">
+        <input type="submit" class="mat-flat-button" value="Guardar" [mat-dialog-close]="true">
+      </div>
+    </form>
+  </div>

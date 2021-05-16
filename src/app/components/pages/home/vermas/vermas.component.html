@@ -1,0 +1,32 @@
+
+<div class="container pt-3">
+<strong><h1>Bienvenido a la sección galletitas: </h1></strong>
+<select (change)="choice($event.target.value)">
+    <option>Seleccionar tipo</option>
+    <option *ngFor="let c of products" [value]="c.code">{{c.producto}}</option>
+</select><br>
+<button (click)="goBack()" class="btn btn-success  my-2">Volver</button>
+    <div [ngSwitch]="selectedProduct">
+        <div *ngSwitchCase="'beb'" class="jumbotron">
+            <app-galle></app-galle>
+       </div>
+        <div *ngSwitchCase="'gol'"  class="jumbotron">
+            <app-saladas></app-saladas>
+        </div>
+        <div *ngSwitchCase="'gal'"  class="jumbotron">
+            <app-json-info></app-json-info>
+            
+        </div>
+    
+    </div>
+       
+    <ng-template #loading>
+        <div class="container-spinner">
+          <mat-spinner></mat-spinner>
+        </div>
+    </ng-template>
+ </div> 
+
+ 
+
+

@@ -1,0 +1,203 @@
+<app-slider></app-slider>
+<app-message></app-message>
+
+<app-products></app-products>
+
+
+<div class="container">
+
+<div class="wrapdestacado p-4">
+        <div class="neon">DESTACADOS</div>
+        <div class="btn btn-success btnmio"><a [routerLink]="['/vermas']">VER MÁS</a> </div>
+</div>
+
+<div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'Dulces'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+
+</div>
+<!--Galletitas - snacks-->
+
+<div class="wrappromos ">
+
+        <div class="wrap1 ">
+            <div class="lado1">
+                <div class="lado1a"> <p>15</p> </div>
+                <div  class="lado1b">%</div>
+            </div>
+           <div class="lado2">
+                tu pedido completo
+           </div>
+        </div>
+
+        <div class="wrap2">
+             <div class="desc1"><h2>Ingresa tu email y disfruta!</h2></div>
+             <div>
+                <label for="email_input">Tu correo: </label>
+                <input type="email" name="email" id="email_input" placeholder="Tu correo">
+            </div>
+             <div class="desc3">Para aprovechar esta oferta debe ingresar su correo. EXCLUSIVO solo para nuevos clientes</div>
+        </div>
+
+</div>
+
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'snacks'">
+                <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+          </div>
+       </div>
+
+    </div>
+
+<!--BEBIDAS cervezas-->
+    <div class="wrapdestacado p-4">
+        <div class="neon">Destacados</div>
+        <div class="btn btn-success btnmio"><a>VER MÁS</a></div>
+    </div>
+
+    <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'alcohol'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+    </div>
+<!--FIN BEBIDAS cervezas-->
+
+<div class="wrappromos ">
+
+  <div class="wrap1 ">
+      <div class="lado1">
+          <div class="lado1a"> <p>10</p> </div>
+          <div  class="lado1b">%</div>
+      </div>
+     <div class="lado2">
+          compra mayor a $800
+     </div>
+  </div>
+
+  <div class="wrap2">
+       <div class="desc1"><h2>Ingresa tu email y disfruta!</h2></div>
+       <div>
+          <label for="email_input">Tu correo: </label>
+          <input type="email" name="email" id="email_input" placeholder="Tu correo">
+      </div>
+       <div class="desc3">Para aprovechar esta oferta debe ingresar su correo. EXCLUSIVO solo para clientes</div>
+  </div>
+
+</div>
+ <!-- jugos-->
+<div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+
+   <div  *ngFor="let post of posts">
+        <div class="item" *ngIf="post.contentPost == 'jugos'">
+             <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                {{post.titlePost}}
+            </a></h1>
+            <img [src]="post.imagePost" >
+            <h2>$ {{post.precio}}</h2>
+        </div>
+   </div>
+</div>
+<!--FIN  jugos-->
+
+<!--ALFAJORES - GOLOSINAS-->
+<div class="wrapdestacado p-4">
+        <div class="neon">Destacados</div>
+        <div class="btn btn-success btnmio"><a>VER MÁS</a></div>
+</div>
+
+<div class="wrappromos ">
+
+  <div class="wrap1 ">
+      <div class="lado1">
+          <div class="lado1a"> <p>Envios</p> </div>
+          <div  class="lado1b"></div>
+      </div>
+     <div class="lado2">
+          gratis
+     </div>
+  </div>
+
+  <div class="wrap2">
+       <div class="desc1"><h2>Ingresa tu email y disfruta!</h2></div>
+       <div>
+          <label for="email_input">Tu correo: </label>
+          <input type="email" name="email" id="email_input" placeholder="Tu correo">
+      </div>
+       <div class="desc3">Para aprovechar esta oferta debe ingresar su correo. EXCLUSIVO para clientes</div>
+  </div>
+
+</div>
+<div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'alfajores'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+    </div>
+<!--CHOCOLATES-->
+<div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+
+        <div  *ngFor="let post of posts">
+             <div class="item" *ngIf="post.contentPost == 'chocolate'">
+                  <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                     {{post.titlePost}}
+                 </a></h1>
+                 <img [src]="post.imagePost" >
+                 <h2>$ {{post.precio}}</h2>
+             </div>
+        </div>
+</div>
+    <!--fIN CHOCOLATES - GOLOSINAS-->
+
+<!--helados-->
+<div class="wrapdestacado p-4">
+  <div class="neon">Destacados</div>
+  <div class="btn btn-success btnmio"><a>VER MÁS</a></div>
+</div>
+
+<div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+
+       <div  *ngFor="let post of posts">
+            <div class="item" *ngIf="post.contentPost == 'helados'">
+                 <h1 class="pt-2" > <a [routerLink]="['/posts', post.id]">
+                    {{post.titlePost}}
+                </a></h1>
+                <img [src]="post.imagePost" >
+                <h2>$ {{post.precio}}</h2>
+            </div>
+       </div>
+</div>
+
+</div>
+
+<ng-template #loading>
+    <div class="container-spinner">
+      <mat-spinner></mat-spinner>
+    </div>
+</ng-template>

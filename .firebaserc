@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "datosdelmono": {
+      "hosting": {
+        "proyecto2021": [
+          "datosdelmono"
+        ]
+      }
+    }
+  }
+}
