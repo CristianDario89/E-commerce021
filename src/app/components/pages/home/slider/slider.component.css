@@ -14,8 +14,11 @@ text-shadow: 2px 2px 1px #451e89;
 @media screen and (max-width: 819px) {
 
 .carousel-caption h3{
-    font-size: 40px;line-height: 50px; }
+    font-size: 30px;line-height: 50px;
+  position: relative;transform: translateY(-100px);
+
+}
 .carousel-caption p{
-     font-size: 30px;line-height: 30px;
+     font-size: 25px;line-height: 30px;
  }
 }
