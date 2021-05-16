@@ -49,12 +49,12 @@ text-align: center;
 
   display: flex;
  justify-content: center;
-  padding: 3rem 1rem 0rem 1rem;
+  padding: 2rem 0.8rem 0rem 0.8rem;
 
   }
   .lado2{
     font-family: 'Indie Flower', cursive;font-size: 2rem;
-    padding: 0rem 1rem 2rem 1rem;
+    padding: 0rem 0.8rem 1rem 0.8rem;
   }
   .lado1a p{
     font-size: 4rem;
@@ -78,7 +78,9 @@ background-color: whitesmoke;
     margin-top: 0.3rem;
 }
 .desc3{
-    font-size: 0.7rem;font-style: italic;font-family: Roboto;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    font-style: italic;font-family: Roboto;
 }
 #email_input{
   margin-left: 4px;
@@ -119,14 +121,17 @@ background-color: #451e89;padding: 10px 20px;border-radius: 5%;}
 
 @media screen and (max-width: 819px) {
   .wrappromos{
-    padding-left: 10px;padding-right: 15px;
+    padding-left: 5px;padding-right: 10px;
     grid-template-columns: 30% 70%;
     }
+    .wrapper .item{
+      min-width: 150px;height: 180px;
+     margin-right:5px;
+     border-radius: 10%;
+    
+     }
 
-    .lado1a p{
-      font-size: 3rem;
-      
-    }
+    .lado1a p{ font-size: 3rem;}
   .lado2{
       padding: 0rem 1rem 2.5rem 1rem;
       font-size: 1rem;
