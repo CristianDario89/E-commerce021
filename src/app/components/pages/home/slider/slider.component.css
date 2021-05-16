@@ -20,5 +20,6 @@ text-shadow: 2px 2px 1px #451e89;
 }
 .carousel-caption p{
      font-size: 25px;line-height: 30px;
+     position: relative;transform: translateY(10px) translateX(60px);
  }
 }
