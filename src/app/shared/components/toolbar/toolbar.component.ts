@@ -7,7 +7,7 @@ import { AuthService } from '../../services/auth.service';
   styleUrls: ['./toolbar.component.css']
 })
 export class ToolbarComponent implements OnInit {
-  public appName = 'Tienda Virtual';
+  public appName = 'Virtual';
   constructor(public authSvc: AuthService) { }
 
   ngOnInit(): void {

@@ -2,16 +2,16 @@
     <mat-icon class="icon1">store</mat-icon>
     <a routerLink="/" class="tituloapp ml-4">{{appName}} </a>
 
-
     <a routerLink="/admin" routerLinkActive="active"
     *ngIf="authSvc.userData$ | async">
 
-        <button mat-button class="tituloapp">
+    <button mat-button class="tituloapp">
           <mat-icon class="">assignment</mat-icon>Admin</button>
     </a>
+    
     <a routerLink="/about" routerLinkActive="active">
 
-        <button mat-button class="tituloapp">
+    <button mat-button class="tituloapp">
           <mat-icon class="">group</mat-icon> Nosotros</button>
     </a>
 
