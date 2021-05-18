@@ -2,24 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Potta+One&display=swap');
 
 .carousel-caption h3{
-    font-family: 'Potta One', cursive;color:  #451e89;
-    font-size: 50px;line-height: 70px;text-shadow: 1px 1px 1px orange;
+    font-family: 'Potta One', cursive;color:  red;
+    font-size: 50px;text-shadow: 1px 1px 1px #451e89;
 }
-.carousel-caption p{
-    font-family: 'Indie Flower', cursive;
-    font-size: 30px;line-height: 40px;
-color: orange;font-weight: 600;
-text-shadow: 2px 2px 1px #451e89;
- }
+.carousel-caption p span { 
+    color: white; 
+    font: bold 19px/35px 'Indie Flower', cursive; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+ } 
 @media screen and (max-width: 819px) {
-
+    .carousel-caption {
+        display: flex;
+        flex-direction: column;
+        
+    }
 .carousel-caption h3{
-    font-size: 30px;line-height: 50px;
-  position: relative;transform: translateY(-95px) translateX(-80px);
-
+    font-size: 50px;line-height: 30px; 
+    margin-bottom: 100px;margin-left: -50px;
+    align-self: flex-start;
 }
 .carousel-caption p{
-     font-size: 25px;line-height: 30px;
-     position: relative;transform: translateY(10px) translateX(60px);
+      
+     align-self: flex-end;
+    
  }
 }

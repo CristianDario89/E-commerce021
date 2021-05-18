@@ -25,7 +25,8 @@
   }
 
   .item{
-    display: grid;grid-template-rows: 20% 60% 20%;}
+    display: grid;grid-template-rows:80% 20%;}
+
   .item img{width: 150px; height: 100%;}
   /*-----Destacados-----*/
   .wrapdestacado{display: flex;justify-content: space-between;
@@ -43,19 +44,12 @@ padding-left: 150px;padding-right: 150px;
 }
 .wrap1{
 color: whitesmoke; background-color: #451e89;
-text-align: center;
+display: flex;flex-direction: column;justify-content: center;text-align: center;
 }
-.lado1{
+.lado1{display: flex;justify-content: center;}
 
-  display: flex;
- justify-content: center;
-  padding: 2rem 0.8rem 0rem 0.8rem;
+.lado2{font-family: 'Indie Flower', cursive;font-size: 2rem;}
 
-  }
-  .lado2{
-    font-family: 'Indie Flower', cursive;font-size: 2rem;
-    padding: 0rem 0.8rem 1rem 0.8rem;
-  }
   .lado1a p{
     font-size: 4rem;
     font-family: 'Indie Flower', cursive;
@@ -124,18 +118,15 @@ background-color: #451e89;padding: 10px 20px;border-radius: 5%;}
     padding-left: 5px;padding-right: 10px;
     grid-template-columns: 30% 70%;
     }
-    .wrapper .item{
+  .wrapper .item{
       min-width: 150px;height: 180px;
      margin-right:5px;
      border-radius: 10%;
     
      }
 
-    .lado1a p{ font-size: 3rem;}
-  .lado2{
-      padding: 0rem 1rem 2.5rem 1rem;
-      font-size: 1rem;
-  }
+  .lado1a p{ font-size: 3rem;}
+  .lado2{font-size: 1rem;}
   
 .neon {font-size:1.4rem;}
 
