@@ -20,13 +20,12 @@
         
     }
 .carousel-caption h3{
-    font-size: 45px;line-height: 45px; 
+    font-size: 35px;line-height: 45px; 
     margin-bottom: 40px;margin-left: -50px;
     align-self: flex-start;
 }
-.carousel-caption p{
-      
-     align-self: flex-end;
-    
- }
+.carousel-caption p{ align-self: flex-end; }
+ngb-carousel{
+    border:7px solid #451e89;
+}
 }
