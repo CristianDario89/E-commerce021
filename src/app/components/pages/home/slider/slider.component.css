@@ -20,8 +20,8 @@
         
     }
 .carousel-caption h3{
-    font-size: 35px;line-height: 45px; 
-    margin-bottom: 40px;margin-left: -50px;
+    font-size: 30px;line-height: 45px; 
+    margin-bottom: 40px;margin-left: -40px;
     align-self: flex-start;
 }
 .carousel-caption p{ align-self: flex-end; }
