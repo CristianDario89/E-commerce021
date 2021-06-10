@@ -20,11 +20,8 @@
        transform:translateX(50px);
         
     }
-.carousel-caption h3{
-    font-size: 30px; 
-    
-} 
-ngb-carousel{
-    border:7px solid #451e89;
-}
+.carousel-caption h3{ font-size: 30px; } 
+
+ngb-carousel{border:7px solid #451e89;}
+
 }
