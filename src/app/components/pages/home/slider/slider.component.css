@@ -23,8 +23,7 @@
 .carousel-caption h3{
     font-size: 30px; 
     
-}
-.carousel-caption p{   }
+} 
 ngb-carousel{
     border:7px solid #451e89;
 }
