@@ -16,7 +16,7 @@
 @media screen and (max-width: 819px) {
     .carousel-caption {
        text-align: end;
-       position: absolute;bottom:30px; 
+       position: absolute;bottom:45px; 
        transform:translateX(20px);
         
     }

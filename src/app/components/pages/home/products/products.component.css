@@ -1,14 +1,17 @@
  ng-image-slider{font-weight: 600;font-size: 24px; }
 
-.wrapperproductos{background-color: #140135;
+.wrapperproductos{
     border-top: 4px solid white; border-bottom: 4px solid white;  
+    background: linear-gradient(-45deg, #9166da, black, #9166da, black);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
    }
 .wrapperslider2{
 transform:scaleY(0.75);
  
 }
 .wrapperslider2 h1{
-   background-color: #140135;     
+    
    color: yellow;font-weight: 600;
    
    font-family: 'Indie Flower';
@@ -17,7 +20,18 @@ transform:scaleY(0.75);
    font-size: 2.2rem;
    transform:translateY(-12px);
    
- 
-   
+}
+
+  
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
   
