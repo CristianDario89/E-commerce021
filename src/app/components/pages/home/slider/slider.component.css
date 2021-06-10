@@ -15,16 +15,16 @@
  } 
 @media screen and (max-width: 819px) {
     .carousel-caption {
-        display: flex;
-        flex-direction: column;
+       text-align: end;
+       position: absolute;bottom:90px; 
+       transform:translateX(50px);
         
     }
 .carousel-caption h3{
-    font-size: 30px;line-height: 45px; 
-    margin-bottom: 40px;margin-left: -40px;
-    align-self: flex-start;
+    font-size: 30px; 
+    
 }
-.carousel-caption p{ align-self: flex-end; }
+.carousel-caption p{   }
 ngb-carousel{
     border:7px solid #451e89;
 }

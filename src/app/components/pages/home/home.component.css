@@ -102,11 +102,13 @@ padding:15px 2px 1px 2px;border:2px solid #451e89;
 }
 
 /*------------------------*/
-.btnmio a{color: ivory; text-decoration: none;
-background-color: red;padding: 5px 10px;border-radius:2%; 
-}
-.btnmio {align-self: center;
-  }
+.wrapbtn{display:grid;
+grid-template-columns: 82% 18%;} 
+
+.btnmio a{color: yellow; text-decoration: none;
+  background-color: #451e89;padding: 5px 10.5px; 
+  font-style: italic;
+   }
  
 @media screen and (max-width: 819px) {
   
