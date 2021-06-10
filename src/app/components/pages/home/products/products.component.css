@@ -1,6 +1,6 @@
  ng-image-slider{font-weight: 600;font-size: 24px; }
 
-.wrapperproductos{background-color: #451e89;
+.wrapperproductos{background-color: #140135;
     border-top: 4px solid white; border-bottom: 4px solid white;  
    }
 .wrapperslider2{
@@ -8,13 +8,13 @@ transform:scaleY(0.75);
  
 }
 .wrapperslider2 h1{
-   background-color: #451e89;     
+   background-color: #140135;     
    color: yellow;font-weight: 600;
    
    font-family: 'Indie Flower';
 
    padding-left: 5px;
-   font-size: 2.5rem;
+   font-size: 2.2rem;
    transform:translateY(-12px);
    
  
