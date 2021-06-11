@@ -8,8 +8,8 @@
 /* ----Products-----*/
    .container{background-color: #ddd;}
   .wrapper{
-    max-height: 250px;
-    background-origin: 1px solid #ddd;
+    max-height: 250px; background-color: white;
+    
     display: flex;
     overflow-x: auto;border:4px solid #451e89;
   }
@@ -19,7 +19,7 @@
   .wrapper .item{
    min-width: 160px;height: 160px;
    text-align: center;
-   background-color: white;
+  
    margin-right: 9px;
   }
 

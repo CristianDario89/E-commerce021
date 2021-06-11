@@ -3,7 +3,7 @@
 .wrapperproductos{
 	border-bottom: 12px solid #451e89;
  	border-left: 12px solid #451e89; border-right: 12px solid #451e89;
-    background: pink;
+    background: whitesmoke;
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
    }
@@ -12,13 +12,13 @@ transform:scaleY(0.75);
  
 }
 .wrapperslider2 h1{
-    
+    background-color: red;
    color: black;font-weight: 600;
    
    font-family: 'Indie Flower';
 
    padding-left: 5px;
-   font-size: 2.2rem;
+   font-size: 1.8rem;
    transform:translateY(-12px);
    
 }
