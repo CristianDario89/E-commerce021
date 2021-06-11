@@ -16,12 +16,17 @@
 @media screen and (max-width: 819px) {
     .carousel-caption {
        text-align: end;
-       position: absolute;bottom:45px; 
+       position: absolute;bottom:65px; 
        transform:translateX(20px);
         
     }
-.carousel-caption h3{ font-size: 30px; } 
+.carousel-caption h3{ font-size: 24px; } 
 
 ngb-carousel{border:7px solid #451e89;}
 
+.carousel-caption p span { 
+   
+    font: bold 14px/30px 'Indie Flower', cursive; 
+    padding: 4px 8px; 
+ } 
 }

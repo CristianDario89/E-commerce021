@@ -41,33 +41,33 @@ background-color: #451e89;
 .wrappromos{
 display: flex; 
  text-align: center;
+ margin-top: 10px;
 }
 .wrap1{
-color: whitesmoke; background-color: #451e89; 
-padding:15px 2px 1px 2px;border:2px solid #451e89;
+color: whitesmoke; background-color: red; 
+padding:10px 2px 0px 2px;border:2px solid red;
   
 }
  
   .lado1a {
     font-size: 3rem; 
-    color:red;text-shadow: 1px 1px 2px white;;
+    color:whitesmoke; 
     font-weight: 600;
     font-family: 'Indie Flower', cursive;
    position: relative; top:15px;
   } 
 
   .wrap2{
-    display:block; background-color: whitesmoke;
+    display:block; color: whitesmoke;background-color: pink;
+    font-family: 'Indie Flower', cursive;color:black;
   }
-.desc1{
-    color:black;
-    font-family: 'Indie Flower';
+.desc1{ 
      line-height:20px;position: relative; top:10px;
 }
 .desc3{
     font-size: 0.7rem;
     line-height: 0.8rem;
-    font-style: italic;font-family: Roboto;
+    font-style: italic; font-weight: 600;
 }
 #email_input{
   margin-left: 4px;
@@ -102,9 +102,7 @@ padding:15px 2px 1px 2px;border:2px solid #451e89;
 }
 
 /*------------------------*/
-.wrapbtn{display:grid;
-grid-template-columns: 75% 25%;} 
-
+ 
 .btnmio a{color: orange; text-decoration: none;
   background-color: #451e89;padding: 5px 10.5px; 
   font-style: italic;
@@ -117,22 +115,18 @@ grid-template-columns: 75% 25%;}
      margin-right:5px;
      }
 
-  .lado1a { font-size: 3rem;}
-  .lado2{font-size: 0.7rem;padding-top: 11px;
+  .lado1a { font-size: 2.3rem;}
+  .lado2{font-size: 0.7rem;padding-top: 10px;line-height: 0.7rem;
   color:whitesmoke; font-style: italic;}
   
 .neon {font-size:1.6rem;}
  
-.desc1 h2{
-  color:black;
-  font-family: 'Indie Flower', cursive;
-  margin-top: 0.3rem;font-size: 1.4rem;line-height: 1.3rem;
-  font-weight: 600;;
-}
+.desc1{ font-size: 1rem;line-height: 1rem; }
 .desc3{
   font-size: 0.6rem;font-style: italic; padding: 0  10px;
 }
 .btnmio {width: 120px;}
+
 .wrapdestacado{justify-content: space-between;}
 .wrappromos{
   margin-bottom: 20px;
