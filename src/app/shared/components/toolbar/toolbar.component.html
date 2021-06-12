@@ -2,24 +2,24 @@
 
   <mat-toolbar   class="violeta">
     <mat-icon class="icon1 rojitosolo">store</mat-icon>
-    <a routerLink="/" class="tituloapp2 ml-4">{{appName}} </a>
+    <a routerLink="/" class="tituloapp2 ">{{appName}} </a>
 
     <a routerLink="/admin" routerLinkActive="active"
     *ngIf="authSvc.userData$ | async">
 
     <button mat-button class="tituloapp">
-          <mat-icon class="">assignment</mat-icon>Admin</button>
+          <mat-icon >assignment</mat-icon>Admin</button>
     </a>
     
     <a routerLink="/about" routerLinkActive="active">
 
     <button mat-button class="tituloapp">
-          <mat-icon class="">group</mat-icon> Nosotros</button>
+          <mat-icon>group</mat-icon> Nosotros</button>
     </a>
 
     <a *ngIf="authSvc.userData$ | async; else showLogin" (click)="onLogout()">
         <button mat-button class="tituloapp">
-          <mat-icon class="">input</mat-icon>Salir</button>
+          <mat-icon>input</mat-icon>Salir</button>
     </a>
 
     <ng-template #showLogin>

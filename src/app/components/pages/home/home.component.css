@@ -44,8 +44,8 @@ display: flex;
  margin-top: 10px;
 }
 .wrap1{
-color: whitesmoke; background-color: red; 
-padding:10px 2px 0px 2px;border:2px solid red;
+color: whitesmoke; background-color: #8A1E3F; 
+padding:10px 2px 0px 2px; 
   
 }
  
@@ -58,8 +58,9 @@ padding:10px 2px 0px 2px;border:2px solid red;
   } 
 
   .wrap2{
-    display:block; color: whitesmoke;background-color: pink;
-    font-family: 'Indie Flower', cursive;color:black;
+    display:block; 
+    color: whitesmoke;background-color: #8A1E86;
+    font-family: 'Indie Flower', cursive; 
   }
 .desc1{ 
      line-height:20px;position: relative; top:10px;
@@ -67,7 +68,7 @@ padding:10px 2px 0px 2px;border:2px solid red;
 .desc3{
     font-size: 0.7rem;
     line-height: 0.8rem;
-    font-style: italic; font-weight: 600;
+    font-style: italic;  
 }
 #email_input{
   margin-left: 4px;

@@ -2,15 +2,13 @@
 
 mat-toolbar{background-color:#451e89}
 
-a {
-    color: white;
-    text-decoration: none;
-  }
+a { color: white;text-decoration: none; }
 
-  .tituloapp{ font-family:roboto;  }
-  .tituloapp2{  font-family:roboto; color:red; }
+.tituloapp{ font-family:roboto;  }
+.tituloapp2{  font-family:roboto;  }
 
-    .icon1{font-size: 3rem; margin-bottom: 20px;
+.icon1{font-size:2.5rem; margin-bottom: 20px; 
+  position: relative;right:12px;
 
       -webkit-animation: skew 3s infinite;
       animation: skew 3s infinite;
@@ -19,50 +17,8 @@ a {
 -webkit-animation-direction: alternate;
       animation-direction: alternate;
     }
-    .tituloapp2{
-      
-      text-shadow :
-      0px -1px 4px white,
-      0px -2px 10px yellow,
-      0px -10px 20px #ff8000,
-      0px -18px 40px red,
-      
-      0px 1px 4px white,
-      0px 2px 10px yellow,
-      0px 10px 20px #ff8000,
-      0px 18px 40px red,
-      
-      1px 0px 4px white,
-      2px 0px 10px yellow,
-      10px 0px 20px #ff8000,
-      18px 0px 40px red,
-      
-      -1px 0px 4px white,
-      -2px 0px 10px yellow,
-      -10px 0px 20px #ff8000,
-      -18px 0px 40px red ;
-      text-shadow :
-0px -1px 4px white,
-0px -2px 10px yellow,
-0px -10px 20px #ff8000,
-0px -18px 40px red,
-
-0px 1px 4px white,
-0px 2px 10px yellow,
-0px 10px 20px #ff8000,
-0px 18px 40px red,
-
-1px 0px 4px white,
-2px 0px 10px yellow,
-10px 0px 20px #ff8000,
-18px 0px 40px red,
-
--1px 0px 4px white,
--2px 0px 10px yellow,
--10px 0px 20px #ff8000,
--18px 0px 40px red ;
-    }
-    .material-icons{
+     
+.material-icons{
       color: orange;margin-right: 3px;
     }
 .rojitosolo{color:red;}
