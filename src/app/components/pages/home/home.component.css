@@ -104,9 +104,10 @@ padding:10px 2px 0px 2px;
 
 /*------------------------*/
  
-.btnmio a{color: wheat; text-decoration: none;
+.btnmio a{
+  color: orange; text-decoration: none;
   background-color: #451e89;padding: 5px 10.5px; 
-  font-style: italic;
+  font-style: italic;font-family: 'Indie Flower', cursive;
    }
  
 @media screen and (max-width: 819px) {

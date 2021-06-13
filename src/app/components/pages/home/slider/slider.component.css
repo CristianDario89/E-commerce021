@@ -12,15 +12,12 @@
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
     padding: 10px; 
+  position: relative;bottom: 15px;
  } 
 @media screen and (max-width: 819px) {
-    .carousel-caption {
-       text-align: end;
-       position: absolute;bottom:25px; 
-       transform:translateX(25px);
-        
-    }
-.carousel-caption h3{ font-size: 24px; } 
+    .carousel-caption {text-align: end;margin-bottom: 50px;} 
+    
+    .carousel-caption h3{ font-size: 24px; } 
 
 ngb-carousel{border:7px solid #451e89;}
 
