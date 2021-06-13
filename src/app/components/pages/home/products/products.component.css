@@ -4,7 +4,7 @@
 	 height: 24px;
 }
 .wrapperproductos{
-	margin:0 30px 20px 30px;
+	margin:0 20px 20px 20px;
 	 border-bottom: 8px solid #451e89;
 	 
 	background-size: 400% 400%;
@@ -30,11 +30,11 @@
  @keyframes glow {
    from {
 	 text-shadow: 
-	   0 0 20px #e5ca00, 0 0 30px #e5ca00, 0 0 40px #e5ca00, 0 0 50px #e5ca00;
+	   0 0 20px red, 0 0 30px #e5ca00, 0 0 40px red, 0 0 50px #e5ca00;
    }
    to {
-	 text-shadow: 0 0 40px #fff30f,
-	   0 0 20px #fff30f, 0 0 30px #fff30f, 0 0 40px #fff30f, 0 0 50px #fff30f;
+	 text-shadow: 0 0 10px #fff30f,
+	   0 0 20px red, 0 0 30px #fff30f, 0 0 40px red, 0 0 50px #fff30f;
    }
  }
   
