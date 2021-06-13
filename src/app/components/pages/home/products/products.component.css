@@ -1,8 +1,11 @@
  ng-image-slider{font-weight: 600;font-size: 24px; }
-
+.tiritas{
+	border-left: 8px solid #451e89;border-right: 8px solid #451e89;
+	 height: 24px;
+}
 .wrapperproductos{
-	margin: 20px 30px;
-	border-top: 8px solid #451e89;border-bottom: 8px solid #451e89;
+	margin:0 30px 20px 30px;
+	 border-bottom: 8px solid #451e89;
 	 
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -11,17 +14,29 @@
 .wrapperslider2 h2{
 	 
    text-align: center; 
-   color: whitesmoke;font-weight: 600;
+   color: orange;font-weight: 600;
     background-color:#451e89;
    font-family: 'Indie Flower';
 
-   padding: 12px 0px 6px 0px;
+   padding: 11px 0px 6px 0px;
    
    font-size: 2rem;
    transform:translateY(-12px);
-   
-}
-
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+ }
+ 
+ @keyframes glow {
+   from {
+	 text-shadow: 
+	   0 0 20px #e5ca00, 0 0 30px #e5ca00, 0 0 40px #e5ca00, 0 0 50px #e5ca00;
+   }
+   to {
+	 text-shadow: 0 0 40px #fff30f,
+	   0 0 20px #fff30f, 0 0 30px #fff30f, 0 0 40px #fff30f, 0 0 50px #fff30f;
+   }
+ }
   
 @keyframes gradient {
 	0% {

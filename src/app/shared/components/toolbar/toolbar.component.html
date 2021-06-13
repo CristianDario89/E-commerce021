@@ -8,18 +8,18 @@
     *ngIf="authSvc.userData$ | async">
 
     <button mat-button class="tituloapp">
-          <mat-icon >assignment</mat-icon>Admin</button>
+          <mat-icon >assignment</mat-icon></button>
     </a>
     
     <a routerLink="/about" routerLinkActive="active">
 
     <button mat-button class="tituloapp">
-          <mat-icon>group</mat-icon> Nosotros</button>
+          <mat-icon>group</mat-icon> </button>
     </a>
 
     <a *ngIf="authSvc.userData$ | async; else showLogin" (click)="onLogout()">
         <button mat-button class="tituloapp">
-          <mat-icon>input</mat-icon>Salir</button>
+          <mat-icon>input</mat-icon></button>
     </a>
 
     <ng-template #showLogin>
