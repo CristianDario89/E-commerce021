@@ -1,4 +1,4 @@
- ng-image-slider{font-weight: 600;font-size: 24px; }
+ ng-image-slider{font-weight: 600;font-size: 24px;}
 .tiritas{
 	border-left: 8px solid #451e89;border-right: 8px solid #451e89;
 	 height: 24px;
@@ -12,8 +12,7 @@
 	 
    } 
 .wrapperslider2 h2{
-	 
-   text-align: center; 
+	text-align: center; 
    color: orange;font-weight: 600;
     background-color:#451e89;
    font-family: 'Indie Flower';
