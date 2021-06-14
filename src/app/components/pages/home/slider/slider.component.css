@@ -19,7 +19,7 @@
     
     .carousel-caption h3{ font-size: 24px; } 
 
-ngb-carousel{border:7px solid #451e89;}
+ngb-carousel{border-left:7px solid #451e89;border-right:7px solid #451e89;}
 
 .carousel-caption p span { 
    
