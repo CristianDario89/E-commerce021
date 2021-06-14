@@ -12,24 +12,25 @@
 	 
    } 
 .wrapperslider2 .wraph2{
-	text-align: center; 
     background-color:#451e89;
 	padding: 16px 0px 8px 0px;
-   
-   transform:translateY(-12px);
+
 }
 
 /* Fade In */
 .fadeIn {
-	display: inline;
+	display: inline;padding:10px 0 10px 130px;
+	   
 }
 .fadeIn span {
 	font-size: 1.6rem; font-family: 'Indie Flower';
 	animation: fadeEffect 12.5s linear infinite 0s;
 	color: orangered;font-weight: 600;
-	opacity: 0;
+	opacity: 0; 
 	overflow: hidden;
-	position: absolute;  transform: translateY(-10px)translateX(-71px);
+	position: absolute; z-index: 1111;
+
+	  
 }
 .fadeIn span:nth-child(2){
 	animation-delay: 2.5s;

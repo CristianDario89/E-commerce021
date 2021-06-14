@@ -3,7 +3,7 @@
 
 .carousel-caption h3{
     font-family: 'Potta One', cursive;color:  black;
-    text-shadow: 1px 1px 1px orangered, -1px -1px 1px orangered;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
     font-size: 40px;
 }
 .carousel-caption p span { 
@@ -16,7 +16,7 @@
   
  } 
 @media screen and (max-width: 819px) {
-.carousel-caption {text-align: start; } 
+.carousel-caption {text-align: center; transform: translateY(23px);} 
     
 .carousel-caption h3{ font-size: 24px;  } 
 
