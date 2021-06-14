@@ -10,15 +10,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { MessageComponent } from './message/message.component';
 import { SliderComponent } from './slider/slider.component';
-import { PromosComponent } from './promos/promos.component';
-
+ 
 import { ProductsComponent } from './products/products.component';
 import { NgImageSliderModule } from 'ng-image-slider';
   
 
 @NgModule({
   declarations: [HomeComponent,PostComponent,MessageComponent,SliderComponent,
-    PromosComponent,
+    
     ProductsComponent ],
   imports: [
     CommonModule,
