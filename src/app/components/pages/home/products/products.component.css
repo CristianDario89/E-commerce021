@@ -13,11 +13,8 @@
    } 
 .wrapperslider2 .wraph2{
 	text-align: center; 
-   color: white;font-weight: 600;
     background-color:#451e89;
-  
-
-   padding: 16px 0px 8px 0px;
+	padding: 16px 0px 8px 0px;
    
    transform:translateY(-12px);
 }
@@ -27,9 +24,9 @@
 	display: inline;
 }
 .fadeIn span {
-	font-size: 1.5rem; font-family: 'Indie Flower';
+	font-size: 1.6rem; font-family: 'Indie Flower';
 	animation: fadeEffect 12.5s linear infinite 0s;
-	color: white;
+	color: orangered;font-weight: 600;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;  transform: translateY(-10px)translateX(-71px);

@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Potta+One&display=swap');
 
 .carousel-caption h3{
-    font-family: 'Potta One', cursive;color:  red;
-    font-size: 50px;text-shadow: 1px 1px 1px #451e89;
+    font-family: 'Potta One', cursive;color:  black;
+    text-shadow: 1px 1px 1px orangered, -1px -1px 1px orangered;
+    font-size: 40px;
 }
 .carousel-caption p span { 
     color: white; 
@@ -12,18 +13,18 @@
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
     padding: 10px; 
-  position: relative;bottom: 15px;
+  
  } 
 @media screen and (max-width: 819px) {
-    .carousel-caption {text-align: start;margin-bottom: 14px;} 
+.carousel-caption {text-align: start; } 
     
-    .carousel-caption h3{ font-size: 24px; } 
+.carousel-caption h3{ font-size: 24px;  } 
 
 ngb-carousel{border-left:7px solid #451e89;border-right:7px solid #451e89;}
 
 .carousel-caption p span { 
    
-    font: bold 14px/30px 'Indie Flower', cursive; 
+    font: bold 14px/30px 'sans-serif', cursive; 
     padding: 4px 8px; 
  } 
 }
