@@ -8,23 +8,80 @@
 }
 .carousel-caption p span { 
     color: white; 
-    font: bold 19px/35px 'Indie Flower', cursive; 
+    font: 19px/35px 'Indie Flower', cursive; 
     letter-spacing: -1px;  
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
     padding: 10px; 
   
- } 
+ }  
+ 
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+  background: #572e9e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+ .fab {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+   
+}
+
+.float-fb {
+  top: 160px;background-color:blue; 
+}
+
+.float-tw {
+  top: 215px;background-color:lightskyblue;
+}
+
+.float-gp {
+  top: 270px;background-color:red;
+}
+ .fa-facebook,.fa-twitter,.fa-instagram{
+    position: relative;right:6px;
+ }
+/* Floating Social Media Bar Style Ends Here */
 @media screen and (max-width: 819px) {
 .carousel-caption {text-align: center; margin-top: 40px;} 
     
-.carousel-caption h3{ font-size: 24px;  } 
+.carousel-caption h3{ font-size: 24px; } 
 
-ngb-carousel{border-left:7px solid #451e89;border-right:7px solid #451e89;}
+ngb-carousel{border-left:7px solid #572e9e;border-right:7px solid #451e89;}
 
 .carousel-caption p span { 
    
-    font: bold 14px/30px 'sans-serif', cursive; 
+    font:  14px/30px 'Lato', cursive; letter-spacing: 1px;
+    font-style: italic;
     padding: 4px 8px; 
  } 
 }
