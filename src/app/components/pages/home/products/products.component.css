@@ -4,7 +4,7 @@
 	 height: 24px;
 }
 .wrapperproductos{
-	margin:0 20px 20px 20px;
+	margin:0 20px 0px 20px;
 	 border-bottom: 8px solid orangered;
 	 
 	background-size: 400% 400%;
@@ -14,7 +14,7 @@
 .wrapperslider2 .wraph2{
     background-color:orangered;
 	padding: 16px 0px 28px 64px;
-	border:2px solid orangered;   
+	 
 }
 
 /* Fade In */
