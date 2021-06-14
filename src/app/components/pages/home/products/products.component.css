@@ -1,35 +1,35 @@
  ng-image-slider{font-weight: 600;font-size: 24px;}
 .tiritas{
-	border-left: 8px solid #451e89;border-right: 8px solid #451e89;
+	border-left: 8px solid orangered;border-right: 8px solid orangered;
 	 height: 24px;
 }
 .wrapperproductos{
 	margin:0 20px 20px 20px;
-	 border-bottom: 8px solid #451e89;
+	 border-bottom: 8px solid orangered;
 	 
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	 
    } 
 .wrapperslider2 .wraph2{
-    background-color:#451e89;
-	padding: 16px 0px 8px 0px;
-
+    background-color:orangered;
+	padding: 16px 0px 28px 110px;
+	border:2px solid orangered;   
 }
 
 /* Fade In */
 .fadeIn {
-	display: inline;padding:10px 0 10px 130px;
+	display: inline;padding:10px 0 10px 0px;
 	   
 }
 .fadeIn span {
 	font-size: 1.6rem; font-family: 'Indie Flower';
 	animation: fadeEffect 12.5s linear infinite 0s;
-	color: orangered;font-weight: 600;
+	color: whitesmoke;font-weight: 600;
 	opacity: 0; 
 	overflow: hidden;
 	position: absolute; z-index: 1111;
-
+ 
 	  
 }
 .fadeIn span:nth-child(2){
