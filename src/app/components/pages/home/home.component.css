@@ -129,7 +129,7 @@ padding:10px 2px 0px 2px;
 }
 .btnmio {width: 211;}
 
-.wrapdestacado{justify-content: space-between;}
+.wrapdestacado{display: block;text-align: center;}
 .wrappromos{
   margin-bottom: 20px;
    

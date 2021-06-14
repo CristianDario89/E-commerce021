@@ -2,7 +2,7 @@
 
   <mat-toolbar   class="violeta">
     <mat-icon class="icon1 rojitosolo">store</mat-icon>
-    <a routerLink="/" >{{appName}} </a>
+    <a routerLink="/" class="titulo">{{appName}} </a>
 
     <a routerLink="/admin" class="ml-auto" routerLinkActive="active"
     *ngIf="authSvc.userData$ | async" >

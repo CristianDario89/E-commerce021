@@ -15,7 +15,7 @@
   position: relative;bottom: 15px;
  } 
 @media screen and (max-width: 819px) {
-    .carousel-caption {text-align: end;margin-bottom: 44px;} 
+    .carousel-caption {text-align: start;margin-bottom: 14px;} 
     
     .carousel-caption h3{ font-size: 24px; } 
 

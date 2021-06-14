@@ -20,6 +20,22 @@ a { color: white;text-decoration: none; }
     }
 .rojitosolo{color:red;}
 
+.violeta .titulo{
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+from {
+text-shadow: 
+  0 0 20px red, 0 0 30px #e5ca00, 0 0 40px red, 0 0 50px #e5ca00;
+}
+to {
+text-shadow: 0 0 10px #fff30f,
+  0 0 20px red, 0 0 30px #fff30f, 0 0 40px red, 0 0 50px #fff30f;
+}
+}
 @keyframes skew {
   0% {
     -webkit-transform: skewX(20deg);
