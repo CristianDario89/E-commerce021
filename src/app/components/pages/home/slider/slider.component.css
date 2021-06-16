@@ -19,13 +19,13 @@
 @media screen and (max-width: 819px) {
 .carousel-caption {margin:auto;} 
     
-.carousel-caption h3{ font-size: 24px;line-height: 22px; word-spacing: -3px;} 
+.carousel-caption h3{ font-size: 18px;line-height: 22px; word-spacing: -3px;} 
 
 ngb-carousel{border-left:7px solid #572e9e;border-right:7px solid #451e89;}
 
 .carousel-caption p span { 
    
-    font:  14px/25px 'Lato', cursive; letter-spacing: 1px;
+    font:  11px/21px 'Lato', cursive; letter-spacing: 1px;
     font-style: italic;
     padding: 4px 8px; 
  } 
