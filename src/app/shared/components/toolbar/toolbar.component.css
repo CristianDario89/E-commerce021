@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee'); 
 /* Used Google Fonts */
 mat-toolbar{background-color:#451e89}
 
@@ -20,7 +21,7 @@ a { color: white;text-decoration: none; }
 .material-icons{
      margin-right: 1px;
     }
-.rojitosolo{color:orangered;}
+.rojitosolo{color:orangered;position: relative;bottom:2px;}
 
  
 @keyframes skew {
@@ -36,24 +37,23 @@ a { color: white;text-decoration: none; }
 
 
 /*------------------------*/
-
 /* Logo-3 */
 .logo-holder{
   position: absolute; z-index: 11;
- transform: translateY(-15px);
+ transform: translateY(-11px);
  text-align: center;
  margin-left: 4px;
 }
 .logo-3 h3 { 
   color: orangered;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  font-size: 25px;
-  line-height:0.4;
+  font-family: 'Bungee'; 
+  
+  font-size: 1.3rem;
+  line-height:0.3rem;
 }
 .logo-3 p {
   font-size: 8px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   background: green;
   font-weight: 400;
