@@ -1,13 +1,25 @@
 <div class="container"> 
-<app-slider></app-slider>
+
+    <div class="wrapslider">
+        <div class="dividedos1">
+            
+            <app-slider></app-slider>
+        </div>
+        <div class="dividedos2">
+            <div class="pri"></div>
+            <div></div>
+        </div>
+    </div>
+
 <app-message></app-message>
 <app-products></app-products>
  </div>
 <div class="container">
  
     <div class="wrapdestacado mt-4"><div class="neon">GALLETITAS</div></div> 
- 
-  <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
+ <!--
+
+<div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
 
         <div  *ngFor="let post of posts">
                 <div class="item" *ngIf="post.contentPost == 'Dulces'">
@@ -20,6 +32,8 @@
       </div>
 
     </div>   
+ -->
+    
       
     <div class="wrapbtn">
      
@@ -29,7 +43,7 @@
   
    
     <div class="wrapdestacado  mt-4"><div class="neon">BEBIDAS</div> </div>
-  
+ <!--
   <div class="wrapper" *ngIf="posts$ | async as posts; else loading" >
 
         <div  *ngFor="let post of posts">
@@ -42,6 +56,9 @@
         </div>
     </div> 
     
+
+ --> 
+
   
     <div class="wrapbtn"><div class="btnmio"><a [routerLink]="['/vermas']">Ver todos</a> </div></div>
      

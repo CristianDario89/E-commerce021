@@ -109,7 +109,24 @@ padding:10px 2px 0px 2px;
   background-color: #451e89;padding: 5px 10.5px; 
   font-style: italic;font-family: 'Indie Flower', cursive;
    }
- 
+
+/*---------------------------*/
+.wrapslider{
+  display:grid;
+  grid-template-columns: 70% 30%;
+}
+.dividedos2{
+  display:grid;grid-template-rows: 50% 50%;
+}
+.dividedos2 .pri{
+  background-color: red;
+
+}
+
+
+ /*----------------------------*/
+
+
 @media screen and (max-width: 819px) {
   
   .wrapper .item{
