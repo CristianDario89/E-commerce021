@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Bungee'); 
 
 .wrapmessage{
     
@@ -17,7 +18,7 @@ font-family: 'Roboto', sans-serif;
 .lineasegunda{
     font-size: 44px;
     color: orangered;
-    font-family: 'Potta One', cursive;
+    font-family: 'Bungee' ;
     text-shadow : 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
  }
 .lineatercera{

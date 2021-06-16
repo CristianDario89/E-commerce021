@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Potta+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bungee'); 
 
-
 @font-face {
   font-family: neon;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
@@ -129,7 +128,7 @@ padding:10px 2px 0px 2px;
  /*----------------------------*/
 
  .title {
-   
+  margin-top: 20px;
    text-align: center;
    color: #FFF;
    display: flex;
@@ -197,12 +196,8 @@ padding:10px 2px 0px 2px;
   }
 
   h1 {font-size: 40px; margin: 10px 0;} 
-  
- .title {
- margin-top: 20px;
-  height: 130px;
- 
-}
+
+ .title {height: 130px;}
   }
 
 
