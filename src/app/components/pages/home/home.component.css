@@ -182,6 +182,7 @@ padding:10px 2px 0px 2px;
   float: left;
   width: 33%;
   height: 100px;
+ 
 } 
 
 /* ///////////////////////////////////////
@@ -191,10 +192,10 @@ padding:10px 2px 0px 2px;
   margin:0 auto;
   max-width: 180px;
   padding: 20px 0;
-  border: 2px solid #910000;
+  border: 2px solid orangered;
   border-width: 1px 0;
   position:relative;
-  background: rgb(201,12,18);
+  background: orangered;
   
   transition:All 0.2549s ease;
   -webkit-transition:All 0.2549s ease;
@@ -215,8 +216,8 @@ padding:10px 2px 0px 2px;
   position: relative;
   padding: 0px 40px;
   margin: 0 -20px;
-  background: rgb(201,12,18);
-  border: 2px solid #910000;
+  background: orangered;
+  border: 2px solid orangered;
   border-width: 0 1px;
 }
 .coupon .inner div {
@@ -226,11 +227,11 @@ padding:10px 2px 0px 2px;
   text-align:center;
 }
 .savings {
-  font-size:1.8em!important;
-  padding: 8px 0;
+  font-size:1.6em!important;
+  padding: 8px 0; font-family: 'Montserrat';
 }
 .coupon .inner div.couponCode {
-  font-size:2em;
+  font-size:1.7em;
   color:#fff;
   line-height: 1em;
 }
@@ -241,10 +242,10 @@ padding:10px 2px 0px 2px;
   position: absolute;
   width: 80px;
   height: 80px;
-  border: 20px solid rgb(201,12,18);
+  border: 20px solid orangered;
   border-radius: 50%;
   background: transparent;
-  box-shadow: inset 0 0 0 2px #910000;
+  box-shadow: inset 0 0 0 2px orangered;
 }
 .coupon:before{
   top: -40px;
@@ -316,7 +317,7 @@ padding:10px 2px 0px 2px;
  .ticketHolder {
  position: relative;left:18px;
   width: 70%;
- margin:auto;
+ margin:auto;transform:scale(0.8);
 }  
 .coupon { 
   max-width: 180px;
