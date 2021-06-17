@@ -1,63 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bungee'); 
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bungee");
 /* Used Google Fonts */
-mat-toolbar{background-color:#a2a2a2}
+mat-toolbar {
+  background-color: #a2a2a2;
+}
 
-a { color: white;text-decoration: none; }
+a {
+  color: white;
+  text-decoration: none;
+}
 
-.icon1{font-size:2.5rem; margin-bottom: 20px; 
-  position: relative;right:12px;
+.icon1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  position: relative;
+  right: 12px;
 
-      -webkit-animation: skew 3s infinite;
-      animation: skew 3s infinite;
--webkit-transform: skew(20deg);
-      transform: skew(20deg);
--webkit-animation-direction: alternate;
-      animation-direction: alternate;
-    }
-     
-.material-icons{
-     margin-right: 1px;
-    }
-.rojitosolo{color:orangered;position: relative;bottom:2px;}
+  -webkit-animation: skew 3s infinite;
+  animation: skew 3s infinite;
+  -webkit-transform: skew(20deg);
+  transform: skew(20deg);
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
 
- 
+.material-icons {
+  margin-right: 1px;
+}
+.rojitosolo {
+  color: orangered;
+  position: relative;
+  bottom: 2px;
+}
+
 @keyframes skew {
   0% {
     -webkit-transform: skewX(20deg);
-            transform: skewX(20deg);
+    transform: skewX(20deg);
   }
   100% {
     -webkit-transform: skewX(-20deg);
-            transform: skewX(-20deg);
+    transform: skewX(-20deg);
   }
 }
 
-
 /*------------------------*/
 /* Logo-3 */
-.logo-holder{
-  position: absolute; z-index: 11;
- transform: translateY(-11px);
- text-align: center;
- margin-left: 4px;
+.logo-holder {
+  position: absolute;
+  z-index: 11;
+  transform: translateY(-11px);
+  text-align: center;
+  margin-left: 4px;
 }
-.logo-3 h3 { 
+.logo-3 h3 {
   color: orangered;
-  font-family: 'Bungee'; 
-  
+  font-family: "Bungee";
+
   font-size: 1.3rem;
-  line-height:0.3rem;
+  line-height: 0.3rem;
 }
 .logo-3 p {
   font-size: 8px;
   letter-spacing: 1px;
   text-transform: uppercase;
   background: green;
- padding: 4px;
-  color:  wheat; font-family: 'Montserrat';font-weight: 500; 
- 
-   display:inline; 
+  padding: 4px;
+  color: wheat;
+  font-family: "Montserrat";
+  font-weight: 500;
+
+  display: inline;
 }

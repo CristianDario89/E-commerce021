@@ -1,32 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Potta+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Potta+One&display=swap");
 
-.carousel-caption h3{
-    font-family: 'Potta One', cursive;color:  black;
-    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
-    font-size: 40px;
-}
-.carousel-caption p span { 
-    color: white; 
-    font: 19px/35px 'Indie Flower', cursive; 
-    letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px; 
-  
- }  
- 
+.carousel-caption h3 {
+  font-family: "Potta One", cursive;
+  color: black;
+  text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+  font-size: 40px;
+}/*
+.carousel-caption p span {
+  color: white;
+  font: 19px/35px "Indie Flower", cursive;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color 
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}*/
+
 @media screen and (max-width: 819px) {
-.carousel-caption {text-align: end;} 
-    
-.carousel-caption h3{ font-size: 18px;line-height: 22px; word-spacing: -3px;} 
+  .carousel-caption {
+    text-align: end;border:1px solid red;
+    transform: translateY(-80%);  
+  }
 
-ngb-carousel{border-left:7px solid #292929;border-right:7px solid #292929;}
+  .carousel-caption h3 {
+    font-size: 18px;border:1px solid green;
+    line-height: 22px;
+    word-spacing: -3px;
+  }
 
-.carousel-caption p span { 
-   
-    font:  11px/21px 'Lato', cursive; letter-spacing: 1px;
+  ngb-carousel {
+    border-left: 7px solid #292929;
+    border-right: 7px solid #292929;
+  }
+/*
+  .carousel-caption p span {
+    font: 11px/21px "Lato", cursive;
+    letter-spacing: 1px;
     font-style: italic;
-    padding: 4px 8px; 
- } 
+    padding: 4px 8px;
+  }*/
 }
