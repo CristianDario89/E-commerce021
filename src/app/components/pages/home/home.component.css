@@ -203,7 +203,7 @@ h1 {
 /* This is for the page layout, feel free to remove */
 .ticketHolder {
   display: block;
-  margin: 10px auto;
+  margin: auto;
   float: left;
   width: 33%;
   height: 50px;
@@ -364,7 +364,7 @@ h1 {
   /*-------------*/
   .ticketHolder {
     width: 70%;
-  transform: scale(0.8) translateY(-14px) translateX(14px);
+  transform: scale(0.8) 
    
   }
   .coupon {
