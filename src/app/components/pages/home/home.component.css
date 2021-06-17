@@ -143,10 +143,9 @@
   grid-template-rows: 50% 50%;
 }
 .dividedos2 .pri {
-  background: #ccb2b2; border:1px solid red;
-}
+  background: #ccb2b2;  }
 
-.dividedos2 .segu { border:1px solid red;
+.dividedos2 .segu { 
   background: #b69c9c;
 }
 /*----------------------------*/
@@ -364,7 +363,7 @@ h1 {
   /*-------------*/
   .ticketHolder {
     width: 70%;
-  transform: scale(0.8) 
+  transform: scale(0.8) translateX(15px) ;
    
   }
   .coupon {
