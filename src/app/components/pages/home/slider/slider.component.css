@@ -18,12 +18,12 @@
 
 @media screen and (max-width: 819px) {
   .carousel-caption {
-    text-align: end;border:1px solid red;
-    transform: translateY(-80%);  
+    text-align: end; 
+    transform: translateY(-60%);  
   }
 
   .carousel-caption h3 {
-    font-size: 18px;border:1px solid green;
+    font-size: 18px; 
     line-height: 22px;
     word-spacing: -3px;
   }
