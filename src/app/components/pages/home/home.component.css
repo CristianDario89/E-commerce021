@@ -203,8 +203,8 @@ h1 {
 /* This is for the page layout, feel free to remove */
 .ticketHolder {
   display: block;
-  margin: auto;
-  float: left;
+  margin:0  auto;
+ 
   width: 33%;
   height: 50px;
 }
