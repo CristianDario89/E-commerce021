@@ -5,7 +5,7 @@
     padding-top: 20px;
     display: flex;flex-direction: column;
    align-items: center;text-align: center;
-background-color: #451e89;
+background-color: #a2a2a2;;
 font-family: 'Roboto', sans-serif;
 } 
 .lineasegunda{
@@ -28,7 +28,7 @@ font-family: 'Roboto', sans-serif;
 /* Floating Social Media Bar Style Starts Here */
 
 .fl-fl {
-    background: #572e9e;
+    background: #a2a2a2;
     text-transform: uppercase;
     letter-spacing: 3px;
     padding: 4px;

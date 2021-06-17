@@ -12,7 +12,7 @@
     max-height: 250px; background-color: white;
     
     display: flex;
-    overflow-x: auto;border:4px solid #451e89;
+    overflow-x: auto;border:4px solid #777;
   }
   .wrapper::-webkit-scrollbar{
    width: 0;
@@ -33,7 +33,7 @@
   /*-----Destacados-----*/
   .wrapdestacado{display: flex;justify-content: space-around;
   
-background-color: #451e89;
+background-color: #777;
 }
 
   .titudestacado{font-size: 1.2rem; 
@@ -107,7 +107,7 @@ padding:10px 2px 0px 2px;
  
 .btnmio a{
   color: orange; text-decoration: none;
-  background-color: #451e89;padding: 5px 10.5px; 
+  background-color: #777;padding: 5px 10.5px; 
   font-style: italic;font-family: 'Indie Flower', cursive;
    }
 
@@ -119,12 +119,9 @@ padding:10px 2px 0px 2px;
 .dividedos2{
   display:grid;grid-template-rows: 50% 50%;
 }
-.dividedos2 .pri{
-  background:#451e89;
+.dividedos2 .pri{background:#ccb2b2;}
 
-}
-
-
+.dividedos2 .segu{background:#b69c9c;}
  /*----------------------------*/
 
  .title {
@@ -284,15 +281,13 @@ padding:10px 2px 0px 2px;
   display:none;
 }
  @media screen and (max-width: 819px) {
- 
-  
-  .wrapper .item{
+.wrapper .item{
       min-width: 150px;height: 150px;
      margin-right:5px;
      }
 
-  .lado1a { font-size: 2.3rem;}
-  .lado2{font-size: 0.7rem;padding-top: 10px;line-height: 0.7rem;
+.lado1a { font-size: 2.3rem;}
+.lado2{font-size: 0.7rem;padding-top: 10px;line-height: 0.7rem;
   color:whitesmoke; font-style: italic;}
   
 .neon {font-size:1.6rem;}
@@ -315,7 +310,7 @@ padding:10px 2px 0px 2px;
 
  /*-------------*/
  .ticketHolder {
- position: relative;left:18px;
+  
   width: 70%;
  margin:auto;transform:scale(0.8);
 }  

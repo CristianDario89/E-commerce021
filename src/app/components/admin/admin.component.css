@@ -10,7 +10,7 @@
   mat-sidenav {
     width: 200px;
     cursor: pointer;
-    background:#451e89;
+    background:#ddd;
     position: fixed;
     top: 55px;
     z-index: 1000;
