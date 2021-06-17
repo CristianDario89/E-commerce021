@@ -365,7 +365,7 @@ h1 {
   .ticketHolder {
     width: 70%;
    
-    transform: scale(0.8) translateX(20px);
+    transform: scale(0.8) translateX(20px) translateY(-20px);
   }
   .coupon {
     max-width: 180px;
